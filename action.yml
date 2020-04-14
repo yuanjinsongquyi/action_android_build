@@ -7,6 +7,12 @@ author: "yuanjinsong"
 inputs:
   GITHUB_TOKEN:
     description: "Github secret token to allow automated publishing of APK to release."
+  CI_TOKEN:
+    description: "蒲公英平台的token"
+  APP_NAME:
+    description: "app打包后的名字"
+  TYPEPACKAGE:
+    description: "打包的种类"
 runs:
   using: "docker"
   image: "Dockerfile"
