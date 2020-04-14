@@ -1,9 +1,9 @@
-name: "Debug APK Publisher"
+name: "Android Apk CI"
 branding:
   icon: "package"
   color: "red"
 description: "Build & Publish Debug APK on Github"
-author: "ShaunLWM"
+author: "yuanjinsong"
 inputs:
   GITHUB_TOKEN:
     description: "Github secret token to allow automated publishing of APK to release."
